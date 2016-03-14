@@ -1,0 +1,42 @@
+@import "base";
+@import "navbar";
+@import "colors";
+@import "footer";
+@import "profile-images";
+@import "buttons";
+
+body {
+	background-color: $color-background;
+}
+
+.background-body {
+	margin-top: 2em;
+}
+
+.border-col {
+	border: 1px solid $color-border;
+	border-radius: 3px;
+	background-color: $color-col;
+}
+
+.ligne-separation {
+	border-top: 1px solid #D4E2EB;
+	margin: 0.8em auto;
+}
+
+.section-margin {
+	margin: 1em;
+}
+
+.img-profil {
+	border-radius: 100%;
+	margin: 0.7em;
+}
+
+p {
+	color: $color-text;
+}
+
+.emarge-button {
+	margin-top: 1.5em;
+}

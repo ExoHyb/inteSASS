@@ -1,0 +1,15 @@
+.button {
+	border: 1px solid $color-button-border;
+	border-radius: 3px;
+	padding: 0.7em 1.5em;
+	background-color: $color-button-background;
+	a {
+		color: $color-button-text;
+		text-decoration: none;
+	}
+	&:hover {
+		background-color: $color-button-background-hover;
+		text-decoration: none;
+		color: #fff;
+	}
+}
